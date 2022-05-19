@@ -185,6 +185,13 @@ return [
         /*
          * Package Service Providers...
          */
+        LaviemRepos\Providers\FactoryRepositoryServiceProvider::class,
+        LaviemRepos\Providers\UserRepositoryServiceProvider::class,
+        LaviemRepos\Providers\BookmarkRepositoryServiceProvider::class,
+        LaviemRepos\Providers\BookmarkRepositoryServiceProvider::class,
+        LaviemRepos\Providers\CategoryRepositoryServiceProvider::class,
+        LaviemRepos\Providers\NotificationsRepositoryServiceProvider::class,
+        LaviemRepos\Providers\AdminNotificationsRepositoryServiceProvider::class,
 
         /*
          * Application Service Providers...
